@@ -19,7 +19,8 @@
         "assets": [
           {
             "glob": "**/*",
-            "input": "apps/lukas-playground-fe/public"
+            "input": "apps/lukas-playground-fe/public",
+            "output": "assets"
           }
         ],
         "styles": ["apps/lukas-playground-fe/src/styles.scss"],
