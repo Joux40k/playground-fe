@@ -18,11 +18,17 @@
   width: 1280px;
 
 }
-.image1 {
+.imageLeft{
   height: 720px;
   width: 1280px;
   position: absolute;
   left: -1280px;
+}
+.imageRight {
+  height: 720px;
+  width: 1280px;
+  position: absolute;
+  right: 1280px;
 }
 .image-container {
   width: 1280 * 3px;

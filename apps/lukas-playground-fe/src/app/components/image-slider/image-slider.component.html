@@ -1,0 +1,9 @@
+<div class="news">
+  <div class="image-container layer1">
+    <img class="imageLeft" [src]="getRightImage()" alt="error loading the image">
+    <img class="image" [src]="getCurrentImage()" alt="error loading the image">
+    <img class="imageRight" [src]="getLeftImage()" alt="error loading the image">
+  </div>
+</div>
+<button mat-button (click)="rotateLeft()">links</button>
+<button mat-button (click)="rotateRight()">rechts</button>
