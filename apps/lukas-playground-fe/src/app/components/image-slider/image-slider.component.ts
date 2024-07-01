@@ -1,9 +1,12 @@
 import { Component, importProvidersFrom } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SliderButtonComponent } from './slider-button/slider-button.component';
 
 @Component({
   selector: 'app-image-slider',
+  standalone: true,
+  imports: [CommonModule, BrowserAnimationsModule, SliderButtonComponent],
   providers: [BrowserAnimationsModule],
   templateUrl: './image-slider.component.html',
   styleUrl: './image-slider.component.scss',
